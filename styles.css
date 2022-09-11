@@ -1,0 +1,49 @@
+body{
+    background: url(bg_img.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    margin-top: 100px;
+    background-color: aliceblue;
+    width: 450px;
+    height:auto;
+}
+.label{
+    text-align: center;
+}
+form{
+    padding: 20px40px;
+    font-size: 18px;
+}
+.form .font{
+    color: rgb(6, 6, 92);
+    font-size: 20px;
+}
+.form input{
+    height: 35px;
+    width: 350px;
+}
+.form button{
+    background-color: hsl(235, 66%, 30%);
+    color:white;
+    margin: 2px;
+    margin-top: 10px;
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
+}
+.form button:hover{
+    background: #151c69;
+}
+.form #email_error,
+.form #pass_error{
+    border: 2pxsolid#EF9A9A;
+    background:rgba(250,0,0,0.1) ;
+    text-align: center;
+    width: 350px;
+    display:none;
+}
+
